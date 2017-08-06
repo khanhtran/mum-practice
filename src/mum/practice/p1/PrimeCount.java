@@ -1,7 +1,9 @@
-package mum.practice;
+package mum.practice.p1;
 
 import java.io.ByteArrayInputStream;
 import java.util.Scanner;
+
+import mum.practice.Solution;
 
 public class PrimeCount extends Solution {
 	

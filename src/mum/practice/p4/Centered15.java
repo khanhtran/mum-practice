@@ -31,7 +31,6 @@ public class Centered15 extends Solution {
 			} else {
 				sum += a[l];
 			}
-//			System.out.println(l + ", " +  r + ", " + sum);
 			l--;
 			r++;
 		}

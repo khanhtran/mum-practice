@@ -50,7 +50,7 @@ public class DecodeArray extends Solution {
 			nums = extractDigits(a, 0);
 		}
 		
-		int value = calDigit(nums);
+		int value = sign*calDigit(nums);
 		return value;
 	}
 

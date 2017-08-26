@@ -14,7 +14,11 @@ public class Solution {
 		sc = new Scanner(new ByteArrayInputStream(input.toString().getBytes()));
 		return null;
 	}
-
+	public void solve2() {
+		if (input != null) {
+			sc = new Scanner(new ByteArrayInputStream(input.toString().getBytes()));
+		}
+	}
 	public void printResult() {		
 		if (output instanceof int[]) {
 			int[] a = (int[]) output;
@@ -29,7 +33,6 @@ public class Solution {
 		} else {
 			System.out.println(output);
 		}
-		
 	}
 
 	public int[] readArray() {
